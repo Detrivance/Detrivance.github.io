@@ -54,13 +54,21 @@
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Button And Menu Color Change */
-.lookInverted-2D7oAl.colorBrand-3pXr91, .buttonInvertedPurple-WtBglX, .lookInverted-2D7oAl.colorGreen-29iAKY, .theme-dark .topPill-30KHOu .itemSelected-1qLhcL, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled, .lookFilled-1Gx00P.colorBrand-3pXr91, .theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL), .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9,.lookFilled-1Gx00P.colorGreen-29iAKY, .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover, .side-8zPYf6 .itemSelected-1qLhcL, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected, .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover,.theme-dark .popoutContainer-3WC9HR:hover, .theme-dark .popout-3G62UL, .theme-dark .memberListItem-vHCzSI:hover, .theme-dark .enabled-5QKLzu:hover, .theme-dark .card-3EIh8J.interactive-IxbS32:hover, .theme-dark .outer-2IVh5n.interactive-1BeKSi:hover, .theme-dark .button-2b6hmh:hover, .theme-light .button-2b6hmh:hover, .theme-dark .item-1GzJrl:hover.invite-271nFU, .theme-dark .item-1GzJrl:hover, .theme-dark .unwrapped-37iUtM.clickable-nnkAZy:hover, .theme-dark .wrapped-15rg6t, .rowBackground-3MeNoN, .theme-dark .rowWrapperActive-2L7i9f, .theme-dark .cardHovered-15wbb-, .theme-dark .loading-17PYl_ .cardHovered-15wbb-, .theme-light .cardHovered-15wbb-, .theme-light .loading-17PYl_ .cardHovered-15wbb-, .theme-dark .listRow-hutiT_:hover, .theme-dark .item-1Yvehc:hover, .theme-dark .friendSelected--wQP3f, .lookOutlined-3sRXeN.colorRed-1TFJan:hover, .theme-dark .tile-QA_yMc:hover, .theme-dark .tileMedia-1q3guD:hover, .theme-dark .actionButton-2PeQbJ, .theme-light .actionButton-2PeQbJ, .theme-dark .inviteRow-2L02ae:hover, .theme-dark .card-FDVird:before, .theme-dark .searchBox-3Y2Vi7{
+.lookInverted-2D7oAl.colorBrand-3pXr91, .buttonInvertedPurple-WtBglX, .lookInverted-2D7oAl.colorGreen-29iAKY, .theme-dark .topPill-30KHOu .itemSelected-1qLhcL, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled, .lookFilled-1Gx00P.colorBrand-3pXr91, .theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL), .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9,.lookFilled-1Gx00P.colorGreen-29iAKY, .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover, .side-8zPYf6 .itemSelected-1qLhcL, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected, .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover,.theme-dark .popoutContainer-3WC9HR:hover, .theme-dark .popout-3G62UL, .theme-dark .memberListItem-vHCzSI:hover, .theme-dark .enabled-5QKLzu:hover, .theme-dark .card-3EIh8J.interactive-IxbS32:hover, .theme-dark .outer-2IVh5n.interactive-1BeKSi:hover, .theme-dark .button-2b6hmh:hover, .theme-light .button-2b6hmh:hover, .theme-dark .item-1GzJrl:hover.invite-271nFU, .theme-dark .item-1GzJrl:hover, .theme-dark .unwrapped-37iUtM.clickable-nnkAZy:hover, .theme-dark .wrapped-15rg6t, .rowBackground-3MeNoN, .theme-dark .rowWrapperActive-2L7i9f, .theme-dark .cardHovered-15wbb-, .theme-dark .loading-17PYl_ .cardHovered-15wbb-, .theme-light .cardHovered-15wbb-, .theme-light .loading-17PYl_ .cardHovered-15wbb-, .theme-dark .listRow-hutiT_:hover, .theme-dark .item-1Yvehc:hover, .theme-dark .friendSelected--wQP3f, .lookOutlined-3sRXeN.colorRed-1TFJan:hover, .theme-dark .tile-QA_yMc:hover, .theme-dark .tileMedia-1q3guD:hover, .theme-dark .actionButton-2PeQbJ, .theme-light .actionButton-2PeQbJ, .theme-dark .inviteRow-2L02ae:hover, .theme-dark .card-FDVird:before, .theme-dark .searchBox-3Y2Vi7, .wrapper-232cHJ, .theme-dark .unreadMentionsBar-1VrBNe {
 	background-color: var(--QTD) !important;
     box-shadow: 0px 0px 2px 1px var(--mc) !important;
     border-radius: 3px;
 	color:#ffffff!important;
 
 }
+.theme-dark .audio-2KA0-x:after, .theme-dark .video-2jNDI4:after{
+	background-color: var(--QTD) !important;
+    box-shadow: 0px 0px 2px 1px var(--mc) !important;
+    border-radius: 50px;
+	color:#ffffff!important;
+}
+
+
 
 .tabBar-1E2ExX .primary-3j8BhM{
 	background-color:transparent !important;
