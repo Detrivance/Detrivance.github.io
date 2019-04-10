@@ -1,0 +1,30 @@
+//META{"name":"Stock","description":"Basic Dark Discord with edits to give color and some functionality","author":"Detrivance","version":"1.0","website":""}*//
+
+/* IMPORT CSS FROM GITHUB */
+@import url('https://rawgit.com/EllexideCodes/Discord-Themes/master/addons/minimalUserList.css');	   /* Minimizes user list to show only icons and role names. Hover to show names */
+
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+Shutouts: 
+Izy and Tropical for their themes which helped me learn how to code some of the specific items in the theme.
+Dingus for helping me create the flashing guild notifications.
+Monster for the minimalUserList and iconTabs add ons
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+IMPORTANT: CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS THEME TO WORK!
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+===== CUSTOMIZABLE COLORS =====
+*/
+:root{
+--mc: #E80000 !important;                                   /* Main Color*/     
+--hc: #980000 !important;                                   /* Hover Color*/       
+--br: 50% !important;                                       /* Roundness of Icons*/    
+--QT: #36393E ;                                             /* Lighter part of theme*/    
+--QTD: #121213;                                             /* Darker part of theme*/ 
+--mc-transparent:rgba(232,0,0,0.3) !important;				/* Used for parts of theme that require a more transparent color */
+--hc-transparent: rgba(152,0,0,0.5) !important;				/* Used for parts of theme that require a more transparent color */
+--chat-icon: url("https://i.imgur.com/VACmkNc.png");        /* Changes Icon of current text channel. If making icon different change the "-webkit-mask-size: 115%" to a size proportionate to look nice */
+--blocked-messages: none; 									/* Removes messages from those you blocked. Use "initial !important;" instead to show messages*/
+}
