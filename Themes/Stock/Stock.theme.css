@@ -24,8 +24,8 @@ IMPORTANT: CHANGE DISCORDS THEME TO DARK THEME IN APPEARANCE SETTINGS FOR THIS T
 --br: 50% !important;                                       /* Roundness of Icons*/    
 --QT: #36393E ;                                             /* Lighter part of theme*/    
 --QTD: #121213;                                             /* Darker part of theme*/ 
---mc-transparent:rgba(232,0,0,0.3) !important;				/* Used for parts of theme that require a more transparent color */
---hc-transparent: rgba(152,0,0,0.5) !important;				/* Used for parts of theme that require a more transparent color */
+--mc-transparent:rgba(232,0,0,0.3) !important;				      /* Used for parts of theme that require a more transparent color */
+--hc-transparent: rgba(152,0,0,0.5) !important;				      /* Used for parts of theme that require a more transparent color */
 --chat-icon: url("https://i.imgur.com/VACmkNc.png");        /* Changes Icon of current text channel. If making icon different change the "-webkit-mask-size: 115%" to a size proportionate to look nice */
---blocked-messages: none; 									/* Removes messages from those you blocked. Use "initial !important;" instead to show messages*/
+--blocked-messages: none; 									                /* Removes messages from those you blocked. Use "initial !important;" instead to show messages*/
 }
