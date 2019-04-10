@@ -1,6 +1,10 @@
-@import "https://ellexidecodes.github.io/Discord-Themes/addons/iconTabs.css";						   /* Changes Activity, Games, Nitro, Friends tabs to be square */ 
+@import url("https://ellexidecodes.github.io/Discord-Themes/addons/iconTabs.css");					   /* Changes Activity, Games, Nitro, Friends tabs to be square */ 
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Large%20Reactions.css"); /* Makes reaction images larger */
-@import url('https://anti-betterdocs.github.io/BlockBetterDocs/code.css');							   /* Anti-Better Docs because fuck you Mr. Robot */
+@import url("https://anti-betterdocs.github.io/BlockBetterDocs/code.css");							   /* Anti-Better Docs because fuck you Mr. Robot */
+@import url ("https://detrivance.github.io/CSS/Setting%20Icons.css");								   /* Adds icons to setting menu options */
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* No Blurple! */
 

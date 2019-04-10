@@ -1,6 +1,7 @@
 //META{"name":"Stock","description":"Basic Dark Discord with edits to give color and some functionality","author":"Detrivance","version":"1.0","website":""}*//
 
 /* IMPORT CSS FROM GITHUB */
+@import url("https://detrivance.github.io/Themes/Stock/stock.css"); /* Auto Update Theme Import Do Not Touch! */
 @import url('https://rawgit.com/EllexideCodes/Discord-Themes/master/addons/minimalUserList.css');	   /* Minimizes user list to show only icons and role names. Hover to show names */
 
 /*
