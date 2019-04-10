@@ -668,7 +668,7 @@ Custom CSS Addons
 
 /*delete blocked people*/
 .theme-dark .friends-table .messages-3amgkR .messageGroupBlocked-3wrQQX, .theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .messageGroupBlocked-3wrQQX {
-    display: var(--bloc-messages); 
+    display: var(--blocked-messages); 
 }
 /*end delete blocked people*/
 
