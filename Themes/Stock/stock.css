@@ -4,7 +4,6 @@
 @import url ("https://detrivance.github.io/CSS/Setting%20Icons.css");								   /* Adds icons to setting menu options */
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
 /* No Blurple! */
 
 /*Main color */
@@ -406,7 +405,7 @@ background-color:#202225;
 .contentSelectedText-3wUhMi .icon-sxakjD  {
     background-color: var(--mc);
     -webkit-mask: var(--chat-icon);
-    -webkit-mask-size: 115%;
+    -webkit-mask-size: 200%;
     height: 20px;
     width: 20px;
     transition: .7s all ease-in-out;
@@ -618,15 +617,15 @@ background-color:#202225;
 /* Status around profile picture */
 
 .maskProfile-1ObLFT {
-    /* -webkit-mask: url(/assets/ee28e44….svg); */
-    /* mask: url(/assets/ee28e44….svg); */
+    -webkit-mask: none;
+    mask: none;
 }
 .mask-3OgeRz {
-    /* -webkit-mask: url(/assets/bbefc7d….svg); */
-    /* -webkit-mask-size: 100%; */
-    /* mask: url(/assets/bbefc7d….svg); */
+    -webkit-mask: none;
+    -webkit-mask-size: 100%;
+    mask: none;
     mask-size: 100%;
-    /* mask-type: luminance; */
+    mask-type: luminance;
 }
 
 
@@ -699,6 +698,9 @@ background-color:#202225;
 .invisible-1kp8Z0, .statusOffline-3R-4Bv {
     background-color: transparent;
     border: 2px solid #747f8d !important;
+}
+.invisible-1kp8Z0, .offline-3qoTek, .unknown-Ms2zdV{
+	background:transparent;
 }
 
 .streaming-2_dnHe {
@@ -868,3 +870,4 @@ Custom CSS Addons
  
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
