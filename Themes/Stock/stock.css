@@ -614,6 +614,7 @@ background-color:#202225;
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
+
 /* Status around profile picture */
 
 .maskProfile-1ObLFT {
@@ -639,6 +640,25 @@ background-color:#202225;
     width: 240px;
     transform: translateY(-100%) translateX(0%) translateZ(0px);
 }
+/* Tagging*/
+.theme-dark [class*="autocomplete-"] [class*="avatarStatus-"] {
+    border: 2px solid;
+}
+.autocompleteRowVertical-q1K4ky .avatarStatus-3jMZl_ {
+    height: 100%;
+    width: 100%;
+}
+.theme-dark .avatarStatus-3jMZl_ {
+    border-color: #2f3136;
+}
+.status-oxiHuE {
+    border-radius: var(--br) !important;
+}
+[class*="avatar-"], .status, [class*="avatarStatus"], .image-33JSyf {
+    border-radius: var(--br) !important;
+}
+
+/* Popouts */
 .popoutTopLeft-b5Eb3O.noArrow-3BYQ0Z {
     margin-bottom: 10px;
 }
@@ -656,60 +676,7 @@ background-color:#202225;
 }
 
 
-.theme-dark .status-2s6iDp {
-    border-color: #2f3136;
-}
-
-.status-2s6iDp {
-    background-clip: padding-box;
-    border: none;
-    border-radius: 999px;
-    bottom: -1px;
-    height: 28px !important;
-    right: -1px;
-    width: 28px !important;
-}
-.status-oxiHuE {
-    border-radius: var(--br) !important;
-}
-.status-oxiHuE {
-    bottom: -1px;
-    right: -1px;
-}
-.status-oxiHuE {
-    border-width: 2px !important;
-}
-
-.online-2S838R {
-    background-color: transparent;
-    border: 2px solid #43b581 !important;
-}
-
-.idle-3DEnRT {
-    background-color: transparent;
-    border: 2px solid #faa61a !important;
-}
-
-
-.dnd-1_xrcq {
-    background-color: transparent;
-    border: 2px solid #f04747 !important;
-}
-.invisible-1kp8Z0, .statusOffline-3R-4Bv {
-    background-color: transparent;
-    border: 2px solid #747f8d !important;
-}
-.invisible-1kp8Z0, .offline-3qoTek, .unknown-Ms2zdV{
-	background:transparent;
-}
-
-.streaming-2_dnHe {
-    background-color: transparent;
-    border: 2px solid #593695 !important;
-}
-
-
-
+/* side bar and one next to settings*/
 .container-2Thooq .status-2kJpnA {
     pointer-events: none;
 }
@@ -762,6 +729,59 @@ background-color:#202225;
     position: absolute;
     right: -2px;
     width: 90px;
+}
+
+/* colors*/
+.theme-dark .status-2s6iDp {
+    border-color: #2f3136;
+}
+
+.status-2s6iDp {
+    background-clip: padding-box;
+    border: none;
+    border-radius: 999px;
+    bottom: -1px;
+    height: 28px !important;
+    right: -1px;
+    width: 28px !important;
+}
+.status-oxiHuE {
+    border-radius: var(--br) !important;
+}
+.status-oxiHuE {
+    bottom: -1px;
+    right: -1px;
+}
+.status-oxiHuE {
+    border-width: 2px !important;
+}
+
+.online-2S838R {
+    background-color: transparent;
+    border: 2px solid #43b581 !important;
+}
+
+.idle-3DEnRT {
+    background-color: transparent;
+    border: 2px solid #faa61a !important;
+}
+
+
+.dnd-1_xrcq {
+    background-color: transparent;
+    border: 2px solid #f04747 !important;
+}
+.invisible-1kp8Z0, .statusOffline-3R-4Bv {
+    background-color: transparent;
+    border: 2px solid #747f8d !important;
+}
+.invisible-1kp8Z0, .offline-3qoTek, .unknown-Ms2zdV{
+	background:transparent;
+}
+
+.streaming-2_dnHe {
+    background-color: transparent;
+    border: 2px solid #593695 !important;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
