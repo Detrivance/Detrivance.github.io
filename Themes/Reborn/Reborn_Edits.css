@@ -277,3 +277,60 @@
     border-radius: 3px;
 }
 /*end fix*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.da-avatar{
+    animation: spinner 4s infinite;
+}
+
+@-webkit-keyframes spinner{
+    25%{
+        -webkit-transform:translateX(22px) rotate(-90deg) scale(.5);
+        transform:translateX(22px) rotate(-90deg) scale(.5)
+    }
+    50%{
+        -webkit-transform:translateX(22px) translateY(22px) rotate(-180deg);
+        transform:translateX(22px) translateY(22px) rotate(-180deg)
+    }
+    75%{
+        -webkit-transform:translateX(0) translateY(22px) rotate(-270deg) scale(.5);
+        transform:translateX(0) translateY(22px) rotate(-270deg) scale(.5)
+    }
+    to{
+        -webkit-transform:rotate(-1turn);
+        transform:rotate(-1turn)
+    }
+}
+
+.container-2td-dC::after {
+    content:'';
+    background-size:cover;
+    background-image:url('https://i.imgur.com/RHxNQyh.png');
+    position:absolute;
+    z-index:1;
+    margin-top:-10px;
+    margin-left:-15px;
+    width:65px;
+    height:60px;
+}
+
