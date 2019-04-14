@@ -1,0 +1,279 @@
+
+
+/* -----------------------------------------------------
+		Custom popuot/profile pictures
+ --------------------------------------------------------*/
+.topSectionPlaying-1J5E4n, .topSectionNormal-2-vo2m {
+    background-color: var(--QTD);
+    background-image: var(--profile-image) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    box-shadow: inset 200px -60px 200px 5px rgba(18, 18, 19, 0.9);
+}
+
+.theme-dark .headerNormal-T_seeN, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6, .headerPlaying-j0WQBV, .activity-11LB_k, .headerStreaming-2FjmGz {
+    background-color: transparent;
+}
+
+/* popout profile */ 
+
+[class|="userPopout"],
+[class|="userPopout"]::before{
+    background-image: var(--popout-image) !important;
+    background-size: cover !important;
+    background-position: center!important;
+}
+
+
+/* Visability for popout and profile */
+.theme-light [class*='topSection']:not(.topSectionNormal-2LlRG1) .creationDate, .theme-dark [class*='topSection'] .creationDate, .headerName-fajvi9, [class*='headerTag-2pZJzA size14-3iUx6q weightNormal-WI4TcG nameTag-m8r81H'], .bodyTitle-Y0qMQz, .rolesList-22qj2L, .rolesList-22qj2L, .theme-dark .note-3kmerW textarea, .theme-dark .quickMessage-1yeL4E, .theme-dark .protip-YaFfgO, .theme-dark .activityUserPopout-2yItg2 .headerText-1HLrL7, .lookOutlined-3sRXeN.colorWhite-rEQuAQ, .body-ZAhrcj{
+    color: #ffffff;
+    text-shadow: 3px 3px 5px #000;
+    background-color:rgba(0,0,0,0.5) !important;
+    border: 1px solid var(--mc);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.gameIcon-0rmMm{
+    background-color:rgba(0,0,0,0.5);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 3px;
+
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------
+		Edits
+ --------------------------------------------------------*/
+ 
+/*remove add guild tooltip */
+.tooltip-1OS-Ti.black-2bmmnj {
+    display: none;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Selected Channel color */
+
+.channel-2QD9_O a, .content-20Aix8{
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1.25em;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.contentSelectedText-3wUhMi,  .content-20Aix8:hover {
+    box-shadow: 0px 0px 2px 1px var(--mc);
+    margin: 1px 1px 1px 9px;
+    border-radius: 3px;
+}
+
+/* Change icon of selected ch*/
+.contentSelectedText-3wUhMi .icon-sxakjD  {
+    background-color: var(--mc);
+    -webkit-mask: var(--chat-icon);
+    -webkit-mask-size: 100%;
+    height: 20px;
+    width: 20px;
+    transition: .7s all ease-in-out;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    opacity: 1;
+}
+.colorConnectedText-1c_uzY, .colorConnectedVoice-3kyvUN, .colorDefaultText-oas-QM, .colorDefaultVoice-3wYlhb, .colorHoveredText-OZnAgu, .colorHoveredVoice-1kucsK, .colorLockedText-1VRkPt, .colorLockedVoice-2UlBjl, .colorSelectedText-1y4Wvs, .colorSelectedVoice-Xcb_9R, .colorUnreadText-2t7XRb, .colorUnreadVoice-137o4S {
+    color: #b9bbbe;
+}
+
+.colorSelectedText-1y4Wvs{
+	color: transparent;
+}
+
+/* Selected Friends */
+.channel-2QD9_O.selected-1HYmZZ a{
+    box-shadow: 0px 0px 2px 1px var(--mc);
+    margin: 1px 1px 1px 9px;
+    border-radius: 3px;
+}
+
+.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a{
+    box-shadow: 0px 0px 2px 1px var(--mc);
+    margin: 1px 1px 1px 9px;
+    border-radius: 3px;
+}
+
+/* friend select hover */
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover, .theme-dark .resultFocused-3aIoYe{
+    box-shadow: 0px 0px 2px 1px var(--mc);
+    margin: 1px 1px 1px 9px;
+    border-radius: 3px;
+	
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/*Game tab fix*/
+
+
+[class*="wrapper-232cHJ badge-1GsMF2 folder count da-wrapper da-badge da-folder da-count"]{
+    display: none !important;
+}
+
+
+
+.privateChannels-1nO12o .channel-2QD9_O:not([style="height: 42px; opacity: 1;"]) {
+    margin: 0px 3px;
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* -----------------------------------------------------
+		Custom CSS
+ --------------------------------------------------------*/
+
+/* Flashing Notifications / new guild animations */
+ [class*="container-2td-dC da-container unread-2OHH1w da-unread"]{
+     animation: pulseUnread 1.5s infinite linear;
+     transition: all linear .2s;
+     border-radius:var(--br);
+}
+ [class*="container-2td-dC da-container unread-2OHH1w da-unread"]:hover{
+     animation: none;
+}
+ .selected-nT-gM3:before, .unread-2OHH1w:before{
+     display: none;
+}
+[class*="container-2td-dC da-container selected-nT-gM3 da-selected"]{
+     box-shadow: 0px 0px 2px 2px var(--mc);
+     border-radius:var(--br);
+}
+.theme-dark .wrapper-2lTRaf{
+     transition: all linear .2s;
+     box-shadow: 0 0 0 10px 0 #000;
+     background: transparent !important;     
+}
+.theme-dark .wrapper-2lTRaf:hover {
+     box-shadow: 0px 0px 10px 1px var(--hc) !important;
+     animation: none;
+     background: transparent !important;
+}
+ @keyframes pulseUnread{
+     0% {
+         box-shadow: 0 0 1px 1px var(--hc);
+    }
+     50% {
+        box-shadow: 0 0 2px 3px var(--mc);
+    }
+     100% {
+        box-shadow: 0 0 1px 1px var(--hc);
+    }
+}
+.theme-dark .wrapper-2lTRaf:first-of-type:hover{
+     transform: scale(1);
+ }
+.theme-dark .wrapper-2lTRaf { 
+     animation:none;
+ }
+
+.iconSizeLarge-161qtT {
+    width: 50px; 
+    height: 50px;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+/* Fly in Voice Chat buttons */
+.container-2Thooq .noWrap-3jynv6 {
+    width: 0px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .5s ease-in-out;
+}
+.container-2Thooq:hover .noWrap-3jynv6 {
+    width: 100px;
+    opacity: 1;
+    pointer-events: all;
+}
+.accountDetails-3k9g4n .username {
+    max-width: 300px;
+    transition: all .5s ease-in-out;
+}
+.accountDetails-3k9g4n:hover .username {
+    max-width: 84px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Blur account email */
+ .userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj {
+     filter: blur(5px);
+     transition: 200ms cubic-bezier(.2, .11, 0, 1);
+}
+ .userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj:hover {
+     filter: none;
+     transition: 200ms cubic-bezier(.2, .11, 0, 1);
+}
+ 
+
+ /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Make Channel Categories Match Role Categories */
+.channels-Ie2l6A .scroller-2FKFPG>[class*=container-]>[class*=container]:first-of-type>[class*=wrapper]>[class*=name], .channels-Ie2l6A .scroller-2FKFPG>[class*=container-]>div:first-of-type>[class*=container]>[class*=wrapper]>[class*=name] {
+    color: #FFFFFF !important;
+    background-image: linear-gradient(90deg, transparent, transparent), linear-gradient(90deg, transparent, var(--main-color), transparent);
+    background-size: 100% 3px;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-top: -25px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 3px;
+    width: 175px !important;
+    margin-left: 0px !important;
+}
+/* Role color change */
+#app-mount .message-group.hide-overflow .avatar-large[style*="100326672795971584"] ~ .comment .message h2 span.username-wrapper strong.user-name[style],
+#app-mount .channel-members .member .avatar-small[style*="100326672795971584"] ~ .member-inner .member-username .member-username-inner[style] {
+   color: var(--static-role-color) !important; 
+}
+/* End Role color change */
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/*delete blocked people*/
+.message-group-blocked {
+    display: none; /* use "display: initial !important;" instead to show messages*/
+}
+/*end delete blocked people*/
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Member hover f*/
+.members-1998pB:hover {
+    animation: member 300ms ease;
+    transform: translate(0px);
+    box-shadow: 4px 0 10px 6px rgba(0, 0, 0, 0.8);
+}
+
+.theme-dark .member-3W1lQa:hover .content-OzHfo4 {
+    background-color: var(--QTD);
+    box-shadow: 0px 0px 2px 1px var(--mc);
+    margin-left: 5px;
+    transition: .3s all ease-in-out;
+    border-radius: 3px;
+}
+.theme-dark .member-3W1lQa.popout-open .content-OzHfo4, .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4{
+	background-color: var(--QTD);
+    box-shadow: 0px 0px 2px 1px var(--mc);
+    border-radius: 3px;
+}
+/*end fix*/

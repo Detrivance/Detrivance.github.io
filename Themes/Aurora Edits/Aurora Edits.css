@@ -1,0 +1,316 @@
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Remove tag/mention background */
+.isMentionedCozy-3isp7y:after {
+    background: transparent!important;
+    border-left: transparent!important;
+
+}
+.theme-dark .isMentioned-N-h9aa {
+    background: transparent!important;
+    color:var(--main-color-solid) !important;
+ 
+}
+
+.wrapper-3WhCwL {
+	background:transparent!important;
+	color:var(--main-color-solid) !important;
+	border-radius:3px;
+}
+
+.theme-dark .wrapperHover-1GktnT:hover {
+    background-color: transparent!important;
+    color: var(--hover-color) !important;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Unread ch badge color */
+.unread-1Dp-OI {
+    background-color: var(--main-color-solid) !important;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Change channel category and user ranks to white*/
+.channels-Ie2l6A .scroller-2FKFPG>[class*=container-]>[class*=container]:first-of-type>[class*=wrapper]>[class*=name], .channels-Ie2l6A .scroller-2FKFPG>[class*=container-]>div:first-of-type>[class*=container]>[class*=wrapper]>[class*=name] {
+    color: #ffffff !important;
+    text-shadow: 0.5px 0.5px 2px black !important;
+    padding-top: 19px;
+    padding-bottom: 2px;
+    margin-top: -25px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 3px;
+    width: 175px !important;
+    margin-left: 0px !important;
+    opacity: 1 !important;
+    pointer-events: none;
+}
+
+.membersGroup-v9BXpm {
+    color: #ffffff !important;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    margin-top: 4px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 3px;
+}
+.activityText-sLG0UL{
+    color:#ffffff;
+}
+/* end white categories */
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* #s colorized */
+.foreground-2W-aJk {
+    opacity: 1;
+    color: var(--main-color-solid);
+}
+
+.background-2OVjk_ {
+    opacity: 1;
+    color: var(--hover-color);   
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Links recolor */
+
+.theme-dark .markup-2BOw-j a {
+    color: var(--main-color-solid) !important;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* No shadow on transparent images */
+.imageWrapper-2p5ogY.imageZoom-1n-ADA {
+	box-shadow: 0 0px 0px rgba(0,0,0,0.4);
+    transition: 250ms box-shadow cubic-bezier(0,0,0,.1);
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/*Make username bigger*/
+
+.accountDetails-3k9g4n .username {
+    font-family: 'Satisfy';
+    font-weight: bold;
+    color: var(--hover-color);
+    font-size: large;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Server invite recolor*/
+.item-1GzJrl.invite-271nFU {
+    color: hsla(0,0%,100%,.6) !important;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Remove Watermark*/
+.wordmark-2iDDfm:after {
+    content: '     ';
+    position: absolute !important;
+	left: 5px;
+    width: 100vw;
+    font-family: 'Satisfy';
+    color: rgba(255,255,255,0.8);
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Add borders to distinguish areas*/
+
+.chat-3bRxxu .content-yTz4x3{
+  border-bottom: 1px solid rgba(255,255,255,.06)!important; 
+  border-left: 1px solid rgba(255,255,255,.06)!important; 
+  border-right: 1px solid rgba(255,255,255,.06)!important;
+  border-radius: 5px;
+}
+
+.titleWrapper-1l0xT9{
+  border-top: 1px solid rgba(255,255,255,.06)!important;  
+  border-left: 1px solid rgba(255,255,255,.06)!important; 
+  border-right: 1px solid rgba(255,255,255,.06)!important;
+  border-radius: 5px;
+}
+
+.vertical-V37hAW .channels-Ie2l6A{
+
+  border-bottom: 1px solid rgba(255,255,255,.06) !important;
+  border-right: 1px solid rgba(255,255,255,.06)!important;
+  border-radius: 5px;
+}
+.theme-dark .guildsWrapper-5TJh6A{
+  border-top: 1px solid rgba(255,255,255,.06)!important;
+  border-bottom: 1px solid rgba(255,255,255,.06)!important;
+  border-left: 1px solid rgba(255,255,255,.06)!important;
+  border-radius: 5px;
+}
+.searchBar-6Kv8R2, .container-2Rl01u {
+  border-top: 1px solid rgba(255,255,255,.06)!important;
+} 
+
+.theme-dark .activityFeed-28jde9, .theme-dark .gameLibrary-TTDw4Y, .theme-dark .applicationStore-1pNvnv, .theme-dark .container-3gCOGc{
+    background-color: #36393f;
+    border: 1px solid rgba(255,255,255,.06)!important;
+}
+
+.theme-dark .inner-zqa7da {
+    border: 1px solid rgba(255,255,255,.06)!important;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*Fix popout profiles to be transparent*/
+.headerStreaming-2FjmGz, .headerPlaying-j0WQBV, .headerSpotify-zpWxgT {
+    background: transparent !important;
+}
+.da-userPopout {
+    background-attachment: inherit;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Fix Side bar select */
+
+.content-OzHfo4:hover {
+    background: linear-gradient(to right,var(--QTD) 85%,var(--QT));
+    margin-left: 8px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    transition: .3s all ease-in-out;
+}
+
+.member-3W1lQa:hover .content-OzHfo4 {
+    background: var(--main-color-faded) !important;
+    transition: .3s all ease-in-out;
+}
+/*Fix emotes background while selecting*/
+.da-emojiPicker .da-searchBar .da-searchBarInner, .da-emojiItem.da-selected, .da-diversitySelector .da-popout, .da-emojiPicker .da-scroller::-webkit-scrollbar-track {
+    background-color: var(--main-color-faded) !important;
+    border: none !important;
+}
+
+.quickMessage-2XpSaN, .note-3kmerW textarea:focus, .da-selectorSelected {
+    background: var(--main-color-faded) !important;
+    border: none;
+}
+theme-dark .item-1Yvehc:hover {
+    background: var(--main-color-faded);
+    color: #fff;
+}
+
+/*--------------------------------------------------------------------------------------------
+Custom CSS Addons
+-------------------------------------------------------------------------------------------- */
+/* Flashing Notifications / new guild animations */
+ [class*="container-2td-dC da-container unread-2OHH1w da-unread"]{
+     animation: pulseUnread 1.5s infinite linear;
+     transition: all linear .2s;
+     border-radius:var(--media-roundness);
+}
+ [class*="container-2td-dC da-container unread-2OHH1w da-unread"]:hover{
+     animation: none;
+}
+ .selected-nT-gM3:before, .unread-2OHH1w:before{
+     display: none;
+}
+[class*="container-2td-dC da-container selected-nT-gM3 da-selected"]{
+     box-shadow: 0px 0px 2px 2px var(--main-color-solid);
+     border-radius:15px;
+}
+.theme-dark .wrapper-2lTRaf{
+     transition: all linear .2s;
+     box-shadow: 0 0 0 10px 0 #000;
+     background: transparent !important;     
+}
+.theme-dark .wrapper-2lTRaf:hover {
+     box-shadow: 0px 0px 10px 1px var(--hover-color) !important;
+     animation: none;
+     background: transparent !important;
+}
+ @keyframes pulseUnread{
+     0% {
+         box-shadow: 0 0 1px 1px var(--hover-color);
+    }
+     50% {
+        box-shadow: 0 0 2px 3px var(--main-color-solid);
+    }
+     100% {
+        box-shadow: 0 0 1px 1px var(--hover-color);
+    }
+}
+.theme-dark .wrapper-2lTRaf:first-of-type:hover{
+     transform: scale(1);
+ }
+.theme-dark .wrapper-2lTRaf { 
+     animation:none;
+ }
+
+.iconSizeLarge-161qtT {
+    width: 50px; 
+    height: 50px;
+}
+
+/*end*/
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/*delete blocked people*/
+.theme-dark .friends-table .messages-3amgkR .messageGroupBlocked-3wrQQX, .theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .messageGroupBlocked-3wrQQX {
+    display: none; /* use "display: initial !important;" instead to show messages*/
+}
+/*end delete blocked people*/
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+/* Fly in Voice Chat buttons */
+.container-2Thooq .noWrap-3jynv6 {
+    width: 0px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .5s ease-in-out;
+}
+.container-2Thooq:hover .noWrap-3jynv6 {
+    width: 100px;
+    opacity: 1;
+    pointer-events: all;
+}
+.accountDetails-3k9g4n .username {
+    max-width: 300px;
+    transition: all .5s ease-in-out;
+}
+.accountDetails-3k9g4n:hover .username {
+    max-width: 84px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Blur account email */
+ .userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj {
+     filter: blur(5px);
+     transition: 200ms cubic-bezier(.2, .11, 0, 1);
+}
+ .userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj:hover {
+     filter: none;
+     transition: 200ms cubic-bezier(.2, .11, 0, 1);
+}
+ 
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
