@@ -4,6 +4,7 @@
 @import url ("https://detrivance.github.io/CSS/Setting%20Icons.css");								   /* Adds icons to setting menu options */
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 /* No Blurple! */
 
 /*Main color */
@@ -55,7 +56,7 @@
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Button And Menu Color Change */
-.lookInverted-2D7oAl.colorBrand-3pXr91, .buttonInvertedPurple-WtBglX, .lookInverted-2D7oAl.colorGreen-29iAKY, .theme-dark .topPill-30KHOu .itemSelected-1qLhcL, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled, .lookFilled-1Gx00P.colorBrand-3pXr91, .theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL), .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9,.lookFilled-1Gx00P.colorGreen-29iAKY, .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover, .side-8zPYf6 .itemSelected-1qLhcL, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected, .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover,.theme-dark .popoutContainer-3WC9HR:hover, .theme-dark .popout-3G62UL, .theme-dark .memberListItem-vHCzSI:hover, .theme-dark .enabled-5QKLzu:hover, .theme-dark .card-3EIh8J.interactive-IxbS32:hover, .theme-dark .outer-2IVh5n.interactive-1BeKSi:hover, .theme-dark .button-2b6hmh:hover, .theme-light .button-2b6hmh:hover, .theme-dark .item-1GzJrl:hover.invite-271nFU, .theme-dark .item-1GzJrl:hover, .theme-dark .unwrapped-37iUtM.clickable-nnkAZy:hover, .theme-dark .wrapped-15rg6t, .rowBackground-3MeNoN, .theme-dark .rowWrapperActive-2L7i9f, .theme-dark .cardHovered-15wbb-, .theme-dark .loading-17PYl_ .cardHovered-15wbb-, .theme-light .cardHovered-15wbb-, .theme-light .loading-17PYl_ .cardHovered-15wbb-, .theme-dark .listRow-hutiT_:hover, .theme-dark .item-1Yvehc:hover, .theme-dark .friendSelected--wQP3f, .lookOutlined-3sRXeN.colorRed-1TFJan:hover, .theme-dark .tile-QA_yMc:hover, .theme-dark .tileMedia-1q3guD:hover, .theme-dark .actionButton-2PeQbJ, .theme-light .actionButton-2PeQbJ, .theme-dark .inviteRow-2L02ae:hover, .theme-dark .card-FDVird:before, .theme-dark .searchBox-3Y2Vi7, .wrapper-232cHJ, .theme-dark .unreadMentionsBar-1VrBNe {
+.lookInverted-2D7oAl.colorBrand-3pXr91, .buttonInvertedPurple-WtBglX, .lookInverted-2D7oAl.colorGreen-29iAKY, .theme-dark .topPill-30KHOu .itemSelected-1qLhcL, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled, .lookFilled-1Gx00P.colorBrand-3pXr91, .theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL), .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9,.lookFilled-1Gx00P.colorGreen-29iAKY, .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover, .side-8zPYf6 .itemSelected-1qLhcL, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected, .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover,.theme-dark .popoutContainer-3WC9HR:hover, .theme-dark .popout-3G62UL, .theme-dark .memberListItem-vHCzSI:hover, .theme-dark .enabled-5QKLzu:hover, .theme-dark .card-3EIh8J.interactive-IxbS32:hover, .theme-dark .outer-2IVh5n.interactive-1BeKSi:hover, .theme-dark .button-2b6hmh:hover, .theme-light .button-2b6hmh:hover, .theme-dark .item-1GzJrl:hover.invite-271nFU, .theme-dark .item-1GzJrl:hover, .theme-dark .unwrapped-37iUtM.clickable-nnkAZy:hover, .theme-dark .wrapped-15rg6t, .rowBackground-3MeNoN, .theme-dark .rowWrapperActive-2L7i9f, .theme-dark .cardHovered-15wbb-, .theme-dark .loading-17PYl_ .cardHovered-15wbb-, .theme-light .cardHovered-15wbb-, .theme-light .loading-17PYl_ .cardHovered-15wbb-, .theme-dark .listRow-hutiT_:hover, .theme-dark .item-1Yvehc:hover, .theme-dark .friendSelected--wQP3f, .lookOutlined-3sRXeN.colorRed-1TFJan:hover, .theme-dark .tile-QA_yMc:hover, .theme-dark .tileMedia-1q3guD:hover, .theme-dark .actionButton-2PeQbJ, .theme-light .actionButton-2PeQbJ, .theme-dark .inviteRow-2L02ae:hover, .theme-dark .card-FDVird:before, .theme-dark .searchBox-3Y2Vi7, .wrapper-232cHJ, .theme-dark .unreadMentionsBar-1VrBNe, #app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud+.friendsRow-2yicud, #app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud {
 	background-color: var(--QTD) !important;
     box-shadow: 0px 0px 2px 1px var(--mc) !important;
     border-radius: 3px;
@@ -448,13 +449,13 @@ background-color:#202225;
 /* Friend call delete button color */
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover{
 	background-color:#00BA00!important;
-	box-shadow: 0px 0px 2px 1px #00BA00!important;
+	
 }
 
 
 .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionRemove-qu8nnl:hover{
 	background-color:var(--mc)!important;
-    box-shadow: 0px 0px 2px 1px var(--mc)!important;
+
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -614,7 +615,6 @@ background-color:#202225;
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-
 /* Status around profile picture */
 
 .maskProfile-1ObLFT {
@@ -749,37 +749,38 @@ background-color:#202225;
     border-radius: var(--br) !important;
 }
 .status-oxiHuE {
-    bottom: -1px;
-    right: -1px;
+    bottom: -1px !important;
+    right: -1px !important;
 }
 .status-oxiHuE {
     border-width: 2px !important;
 }
 
-.online-2S838R {
+.status-oxiHuE:not(.status-3fQvEa).online-2S838R {
     background-color: transparent;
     border: 2px solid #43b581 !important;
 }
 
-.idle-3DEnRT {
+.status-oxiHuE:not(.status-3fQvEa).idle-3DEnRT {
     background-color: transparent;
     border: 2px solid #faa61a !important;
 }
 
 
-.dnd-1_xrcq {
+.status-oxiHuE:not(.status-3fQvEa).dnd-1_xrcq {
     background-color: transparent;
     border: 2px solid #f04747 !important;
 }
-.invisible-1kp8Z0, .statusOffline-3R-4Bv {
+.status-oxiHuE:not(.status-3fQvEa).offline-3qoTek{
     background-color: transparent;
     border: 2px solid #747f8d !important;
 }
-.invisible-1kp8Z0, .offline-3qoTek, .unknown-Ms2zdV{
-	background:transparent;
+.status-oxiHuE:not(.status-3fQvEa).invisible-1kp8Z0 {
+    background-color: transparent;
+	border-color: #747f8d !important;
 }
 
-.streaming-2_dnHe {
+.status-oxiHuE:not(.status-3fQvEa).streaming-2_dnHe {
     background-color: transparent;
     border: 2px solid #593695 !important;
 }
@@ -818,8 +819,183 @@ background-color:#202225;
     right: 0px;
 }
 
-
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Square friend list */
+
+.friendsTable-133bsv .friendsTableHeader-32yE7d{
+	display:none;
+}
+
+.friendsTable-133bsv .scroller-2FKFPG > div:not(.friendsRow-2yicud), .friendsTable-133bsv .scroller-2FKFPG {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.membersWrap-2h-GB4, .scroller-2FKFPG {
+    width: 275px !important;
+    max-width: unset;
+}
+.friendsTable-133bsv .scroller-2FKFPG > div:not(.friendsRow-2yicud), .friendsTable-133bsv .scroller-2FKFPG {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud+.friendsRow-2yicud {
+    border: none;
+}
+#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud {
+    background: transparent;
+    animation: fade 500ms ease;
+    border-radius: 0 !important;
+    margin: 10px;
+    padding: 0;
+    height: 300px !important;
+    width: 300px;
+    max-width: 300px;
+    display: block;
+    position: relative;
+}
+#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ {
+    position: absolute;
+    backface-visibility: hidden;
+}
+.container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm {
+    width: 100%;
+}
+
+#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .avatarSmall--gkJKA {
+    width: 300px !important;
+    height: 300px !important;
+    filter: brightness(.4);
+}
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .avatarSmall--gkJKA {
+    margin-right: 0;
+}
+
+.friendsRow-2yicud .inner-1W0Bkn {
+    transition: 500ms ease transform;
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .discord-tag {
+    display: block;
+    position: absolute;
+    top: 28px;
+    z-index: 10;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+.discord-tag, .statusText-2F9zIF, .friendsColumnStatus-ZH4ho2, .iconSizeSmall-3aWgx9 {
+    transition: 150ms ease all;
+}
+#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnName-1zBOKm .discord-tag .discriminator {
+    visibility: visible;
+    opacity: 1;
+}
+#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ+.friendsColumn-eVHFqJ {
+    margin: 0;
+}
+#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ {
+    position: absolute;
+    backface-visibility: hidden;
+}
+#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .status-mz5rqq, #app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 {
+    width: 100%;
+    left: 2px;
+    opacity: .8;
+    justify-content: center;
+    height: 25px;
+    top: 0;
+    border-radius: 0 !important;
+    z-index: 0;
+}
+.dnd-1_xrcq {
+    box-shadow: 0 0 12px #f04747;
+	background-color #f04747;
+}
+
+#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .statusText-2F9zIF {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 800 !important;
+    max-width: 90%;
+    font-size: 12px;
+    line-height: normal;
+    transition: color 300ms;
+    z-index: 0;
+}
+
+.discord-tag, .statusText-2F9zIF, .friendsColumnStatus-ZH4ho2, .iconSizeSmall-3aWgx9 {
+    transition: 150ms ease all;
+}
+
+#app-mount .container-3gCOGc .friendsTable-133bsv .friendsTableBody-1ZhKif .friendsRow-2yicud .friendsColumnGuilds-2we6jb {
+    width: 100%;
+    top: 72% !important;
+    left: 4px !important;
+    display: flex !important;
+}
+#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ+.friendsColumn-eVHFqJ {
+    margin: 0;
+}
+#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ {
+    position: absolute;
+    backface-visibility: hidden;
+}
+#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ+.friendsColumn-eVHFqJ {
+    margin: 0;
+}
+#app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud .friendsColumn-eVHFqJ {
+    position: absolute;
+    backface-visibility: hidden;
+}
+.friendsColumnActions-1LT3_M {
+    visibility: visible !important;
+    position: absolute;
+    bottom: 0 !important;
+}
+.friendsColumnActions-1LT3_M .friendsAction-__WNE9:first-child, .friendsColumnActions-1LT3_M .friendsAction-__WNE9:nth-child(2) {
+    background-color: rgba(73, 152, 76, 0.7) !important;
+}
+.friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
+    margin: 0 !important;
+    border-radius: 0 !important;
+    width: 100px !important;
+    height: 40px !important;
+}
+.friendsColumnActions-1LT3_M .friendsAction-__WNE9:first-child, .friendsColumnActions-1LT3_M .friendsAction-__WNE9:nth-child(2) {
+    background-color: rgba(73, 152, 76, 0.7) !important;
+}
+.friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
+    margin: 0 !important;
+    border-radius: 0 !important;
+    width: 100px !important;
+    height: 40px !important;
+}
+
+
+.friendsColumnActions-1LT3_M .friendsAction-__WNE9:nth-child(3) {
+    background-color: rgba(199, 0, 67, 0.7) !important;
+}
+
+.friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
+    margin: 0 !important;
+    border-radius: 0 !important;
+    width: 100px !important;
+    height: 40px !important;
+}
+
+
+
+
+
+
+
+
 
 
 /*
@@ -925,4 +1101,3 @@ Custom CSS Addons
  
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
