@@ -1,20 +1,37 @@
+/* IMPORT CSS FROM GITHUB */
 @import url("https://ellexidecodes.github.io/Discord-Themes/addons/iconTabs.css");					   /* Changes Activity, Games, Nitro, Friends tabs to be square */ 
 @import url("https://tropix126.github.io/BetterDiscordStuff/Reborn%20Snippets/Large%20Reactions.css"); /* Makes reaction images larger */
 @import url("https://anti-betterdocs.github.io/BlockBetterDocs/code.css");							   /* Anti-Better Docs because fuck you Mr. Robot */
 @import url ("https://detrivance.github.io/CSS/Setting%20Icons.css");								   /* Adds icons to setting menu options */
+@import url('https://rawgit.com/EllexideCodes/Discord-Themes/master/addons/minimalUserList.css');	   /* Minimizes user list to show only icons and role names. Hover to show names */
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
 /* No Blurple! */
 
 /*Main color */
-.newMessagesBar-mujexs, .theme-dark .chat-3bRxxu .jumpToPresentBar-9P20AM, .themeDefault-24hCdX.valueChecked-m-4IJZ, .barFill-23-gu-, #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, .bda-slist .bda-footer button, .bd-pfbtn, .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span, .avatarUploaderInner-3UNxY3, .lookFilled-1Gx00P.colorBrand-3pXr91, .wanderingCubesItem-WPXqao{
-	background-color: var(--mc);
+.newMessagesBar-mujexs, 
+.theme-dark .chat-3bRxxu .jumpToPresentBar-9P20AM, 
+.themeDefault-24hCdX.valueChecked-m-4IJZ, .barFill-23-gu-, 
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked, 
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span, 
+.avatarUploaderInner-3UNxY3, 
+.lookFilled-1Gx00P.colorBrand-3pXr91, 
+.wanderingCubesItem-WPXqao,
+.bd-pfbtn,
+.bda-slist .bda-footer button{
+	background-color: var(--mc) !important;
 }
 .newMessagesBar-mujexs button:last-child{
 	color:#ffffff;
 }
 
-.theme-dark .wrapper-3WhCwL, .theme-dark .markup-2BOw-j a, .theme-dark .circleIconButton-jET_ig.circleButtonSelected-34rLFW, .theme-dark .circleIconButton-jET_ig:hover, .theme-dark .header-3ZP1MY, .theme-light .header-3ZP1MY, .layer-3QrUeG[layer-id="user-settings"] .item-PXvHYJ:nth-of-type(8), .theme-light .sampleLink-KPFu3I, .theme-light .title-2Dc-Cb, .anchor-3Z-8Bb, .lookLink-9FtZy-.colorLink-35jkBc, .bda-slist .bda-footer a, .lookLink-9FtZy-.colorBrand-3pXr91, .welcomeMessage-3_Mcht .h1-1IDj26 {
+.theme-dark .wrapper-3WhCwL /* tags*/, 
+.theme-dark .markup-2BOw-j a /*links */,  
+.anchor-3Z-8Bb /*pictures*/, 
+.bda-slist .bda-footer a{
 	color: var(--mc) !important;
 }
 
@@ -23,18 +40,12 @@
 	background-color: var(--mc-transparent);
 }
 
-.theme-dark .input-cIJ7To:focus, .theme-dark .input-cIJ7To.focused-1mmYsC, .theme-dark .top-28JiJ- .itemSelected-1qLhcL, .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span, .theme-dark .circleIconButton-jET_ig.circleButtonSelected-34rLFW, .theme-dark .circleIconButton-jET_ig:hover, .theme-dark .auditLog-3jNbM6, .theme-dark .input-cIJ7To:focus{
+/*audit log borders*/
+.theme-dark .auditLog-3jNbM6,
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span{
 	border-color:var(--mc)!important;
 }
 
-.lookOutlined-3sRXeN.colorBrand-3pXr91{
-	border-color:var(--mc-transparent)!important;
-	color: var(--mc);
-}
-.lookOutlined-3sRXeN.colorBrand-3pXr91:hover{
-	border-color:var(--mc)!important;
-	color: var(--mc);
-}
 
 /* Hover Color */
 .newMessagesBar-mujexs:hover{
@@ -49,64 +60,74 @@
 .verifiedInner-DViLz0.banner-1TiK82{
 	fill: #4f545c;
 }
-
-
-
+.theme-dark .button-OhfaWu.selected-wSa2KV, 
+.theme-light .button-OhfaWu.selected-wSa2KV, 
+.theme-dark .button-OhfaWu, 
+.theme-light .button-OhfaWu{
+	background-color: transparent;
+}
+.theme-dark .content-Qb0rXO{
+color: #ffffff !important;
+}
+.channel-2QD9_O .linkButtonIcon-Mlm5d6 {
+    color: #f6f6f7;
+}
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Button And Menu Color Change */
-.lookInverted-2D7oAl.colorBrand-3pXr91, .buttonInvertedPurple-WtBglX, .lookInverted-2D7oAl.colorGreen-29iAKY, .theme-dark .topPill-30KHOu .itemSelected-1qLhcL, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled, .lookFilled-1Gx00P.colorBrand-3pXr91, .theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL), .theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9,.lookFilled-1Gx00P.colorGreen-29iAKY, .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover, .side-8zPYf6 .itemSelected-1qLhcL, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected, .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover,.theme-dark .popoutContainer-3WC9HR:hover, .theme-dark .popout-3G62UL, .theme-dark .memberListItem-vHCzSI:hover, .theme-dark .enabled-5QKLzu:hover, .theme-dark .card-3EIh8J.interactive-IxbS32:hover, .theme-dark .outer-2IVh5n.interactive-1BeKSi:hover, .theme-dark .button-2b6hmh:hover, .theme-light .button-2b6hmh:hover, .theme-dark .item-1GzJrl:hover.invite-271nFU, .theme-dark .item-1GzJrl:hover, .theme-dark .unwrapped-37iUtM.clickable-nnkAZy:hover, .theme-dark .wrapped-15rg6t, .rowBackground-3MeNoN, .theme-dark .rowWrapperActive-2L7i9f, .theme-dark .cardHovered-15wbb-, .theme-dark .loading-17PYl_ .cardHovered-15wbb-, .theme-light .cardHovered-15wbb-, .theme-light .loading-17PYl_ .cardHovered-15wbb-, .theme-dark .listRow-hutiT_:hover, .theme-dark .item-1Yvehc:hover, .theme-dark .friendSelected--wQP3f, .lookOutlined-3sRXeN.colorRed-1TFJan:hover, .theme-dark .tile-QA_yMc:hover, .theme-dark .tileMedia-1q3guD:hover, .theme-dark .actionButton-2PeQbJ, .theme-light .actionButton-2PeQbJ, .theme-dark .inviteRow-2L02ae:hover, .theme-dark .card-FDVird:before, .theme-dark .searchBox-3Y2Vi7, .wrapper-232cHJ, .theme-dark .unreadMentionsBar-1VrBNe {
+ 
+.theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL), 
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9,.lookFilled-1Gx00P.colorGreen-29iAKY, 
+.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, 
+.theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover, 
+.side-8zPYf6 .itemSelected-1qLhcL, 
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected, 
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover,
+.theme-dark .popoutContainer-3WC9HR:hover, 
+.theme-dark .popout-3G62UL, .theme-dark .memberListItem-vHCzSI:hover, 
+.theme-dark .enabled-5QKLzu:hover, 
+.theme-dark .card-3EIh8J.interactive-IxbS32:hover, 
+.theme-dark .outer-2IVh5n.interactive-1BeKSi:hover, 
+.theme-dark .button-2b6hmh:hover, .theme-light .button-2b6hmh:hover, 
+.theme-dark .item-1GzJrl:hover.invite-271nFU, 
+.theme-dark .item-1GzJrl:hover, 
+.theme-dark .unwrapped-37iUtM.clickable-nnkAZy:hover, 
+.theme-dark .wrapped-15rg6t, 
+.rowBackground-3MeNoN, 
+.theme-dark .rowWrapperActive-2L7i9f, 
+.theme-dark .cardHovered-15wbb-, 
+.theme-dark .loading-17PYl_ .cardHovered-15wbb-, 
+.theme-light .cardHovered-15wbb-, 
+.theme-light .loading-17PYl_ .cardHovered-15wbb-, 
+.theme-dark .listRow-hutiT_:hover, 
+.theme-dark .item-1Yvehc:hover, 
+.theme-dark .friendSelected--wQP3f, 
+.lookOutlined-3sRXeN.colorRed-1TFJan:hover, 
+.theme-dark .tile-QA_yMc:hover, 
+.theme-dark .tileMedia-1q3guD:hover, 
+.theme-dark .actionButton-2PeQbJ, 
+.theme-light .actionButton-2PeQbJ, 
+.theme-dark .inviteRow-2L02ae:hover, 
+.theme-dark .card-FDVird:before, 
+.theme-dark .searchBox-3Y2Vi7, 
+.wrapper-232cHJ, 
+.theme-dark .unreadMentionsBar-1VrBNe, 
+[class*="numberBadge-2s8kKX base-PmTxvP da-numberBadge da-base"], 
+[class*="iconBadge-2wi9r4 da-iconBadge iconBadge-2NuvG9 base-PmTxvP da-iconBadge da-base"],
+.numberBadge-2s8kKX, .iconBadge-2wi9r4,
+.item-2hkk8m,
+.lookInverted-2D7oAl.colorBrand-3pXr91:hover,
+.lookInverted-2D7oAl.colorBrand-3pXr91, .hasMore-3e72_v button,
+.theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+.theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover,
+.unread-1xRYoj{
+ 
 	background-color: var(--QTD) !important;
     box-shadow: 0px 0px 2px 1px var(--mc) !important;
     border-radius: 3px;
 	color:#ffffff!important;
 
 }
-.theme-dark .audio-2KA0-x:after, .theme-dark .video-2jNDI4:after{
-	background-color: var(--QTD) !important;
-    box-shadow: 0px 0px 2px 1px var(--mc) !important;
-    border-radius: 50px;
-	color:#ffffff!important;
-}
-
-
-.tabBar-1E2ExX .primary-3j8BhM{
-	background-color:transparent !important;
-}
-
-.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
-	background-color: var(--QTD);
-    box-shadow: 0px 0px 2px 1px var(--hc);
-    border-radius: 3px;
-	color:var(--hc);
-	text-decoration: underline;
-}
-
-
-.theme-dark [class*="cardPrimaryEditable"], .theme-dark [class*="cardPrimary"], .theme-dark [class*="cardPrimaryOutline"], .theme-dark [class*="headerClickable"], .theme-dark [class*="headerDefault"], .theme-dark [class*="headerExpanded"] {
-    background: var(--QTD) !important;
-    border: 2px solid transparent !important;
-    box-shadow: none;
-}
-
-.theme-dark [class*="cardPrimaryEditable"]:hover, .theme-dark [class*="cardPrimary"]:hover, .theme-dark [class*="cardPrimaryOutline"]:hover, .theme-dark [class*="headerClickable"], .theme-dark [class*="headerDefault"]:hover, .theme-dark [class*="headerExpanded"]:hover {
-    box-shadow: 0px 0px 2px 1px var(--mc) !important;
-}
-.theme-dark .checkbox-1ix_J3 {
-    border-color: var(--mc) !important;
-    opacity: 0.6;
-}
-.theme-dark [class*="checkbox"] {
-    border-width: 0px;
-	box-shadow: 0px 0px 2px 1px var(--mc) !important;
-	border-color: var(--mc) !important;
-    background: var(--QDT);
-	
-}
-polyline[stroke*="#7289da"], circle[stroke*="rgb(171, 185, 233)"]{
-	stroke:var(--mc) !important;
-}
-/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Add server module dark */
 .theme-light .wrapper-2ZbzR9, .theme-light .slide-2pHaq5 {
@@ -233,6 +254,8 @@ background-color:#191a1c;
 background-color:#202225;
 }
 
+/* Role square edits */
+
 .role-2irmRk {
     border-width: 1px !important;
     border-radius: 2px !important;
@@ -297,17 +320,99 @@ background-color:#202225;
     transition: transform 0.2s;
     transform: translateX(0);
 }
-
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* Text channel colored #s as new messages in channel */ 
-.colorUnreadText-2t7XRb, .colorUnreadVoice-137o4S, .wrapperHoveredText-2geN_M .colorHoveredText-OZnAgu, .colorConnectedVoice-3kyvUN {
-    color: var(--mc)!important;
-    opacity: 1 !important;
+
+
+/* Selected Channel color */
+
+.channel-2QD9_O a, .content-20Aix8{
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1.25em;
+    overflow: hidden;
+    position: relative;
+    background-color: #252629;
 }
 
-.unread-1Dp-OI {
-	display: none;
-} 
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-light .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU{
+	background-color: var(--QTD);
+    box-shadow: 0px 0px 2px 1px var(--mc);
+    margin: 1px 1px 1px 9px;
+    border-radius: 3px;
+}
+.theme-dark .wrapper-1ucjTd:hover .content-3at_AU:hover {
+    background-color: var(--QTD);
+    box-shadow: 0px 0px 2px 1px var(--mc);
+    margin: 1px 1px 1px 9px;
+    border-radius: 3px;
+}
+/* End Change icon of selected ch*/
+
+/* Text channel colored #s as new messages in channel */ 
+
+.theme-dark .unread-3zKkbm {
+    display: none;
+}
+.modeUnread-1zpFdA .icon-1_QxNX {
+    color: var(--mc);
+}
+
+/* Change icon of selected ch*/
+
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX {
+    background-color: var(--mc);
+    opacity: 1!important;
+    -webkit-mask: var(--chat-icon);
+    -webkit-mask-size: 200%;
+    height: 20px;
+    width: 20px;
+    transition: .7s all ease-in-out;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+}
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX path {
+    display: none !important;
+}
+
+
+/* Selected Friends */
+.channel-2QD9_O.selected-1HYmZZ a{
+    background-color: var(--QTD);
+    box-shadow: 0px 0px 2px 1px var(--mc);
+    margin: 1px 1px 1px 9px;
+    border-radius: 3px;
+}
+
+.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a{
+    background-color: var(--QTD) !important;
+    box-shadow: 0px 0px 2px 1px var(--mc);
+    margin: 1px 1px 1px 9px;
+    border-radius: 3px;
+}
+
+/* friend select hover */
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover, .theme-dark .resultFocused-3aIoYe{
+    background-color: var(--QTD);
+	box-shadow: 0px 0px 2px 1px var(--mc);
+    margin: 1px 1px 1px 9px;
+    border-radius: 3px;
+	
+}
+
+/* Friend call delete button color */
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover{
+	background-color:#00BA00!important;
+	box-shadow: 0px 0px 2px 1px #00BA00!important;
+}
+
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionRemove-qu8nnl:hover{
+	background-color:var(--mc)!important;
+    box-shadow: 0px 0px 2px 1px var(--mc)!important;
+}
+
+
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
@@ -382,82 +487,7 @@ background-color:#202225;
     display: none;
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* Selected Channel color */
 
-.channel-2QD9_O a, .content-20Aix8{
-    color: #fff;
-    cursor: pointer;
-    font-size: 14px;
-    line-height: 1.25em;
-    overflow: hidden;
-    position: relative;
-    background-color: #252629;
-}
-
-.contentSelectedText-3wUhMi,  .content-20Aix8:hover {
-    background-color: var(--QTD);
-    box-shadow: 0px 0px 2px 1px var(--mc);
-    margin: 1px 1px 1px 9px;
-    border-radius: 3px;
-}
-
-/* Change icon of selected ch*/
-.contentSelectedText-3wUhMi .icon-sxakjD  {
-    background-color: var(--mc);
-    -webkit-mask: var(--chat-icon);
-    -webkit-mask-size: 200%;
-    height: 20px;
-    width: 20px;
-    transition: .7s all ease-in-out;
-    -webkit-mask-repeat: no-repeat;
-    -webkit-mask-position: center;
-    opacity: 1;
-}
-.colorConnectedText-1c_uzY, .colorConnectedVoice-3kyvUN, .colorDefaultText-oas-QM, .colorDefaultVoice-3wYlhb, .colorHoveredText-OZnAgu, .colorHoveredVoice-1kucsK, .colorLockedText-1VRkPt, .colorLockedVoice-2UlBjl, .colorSelectedText-1y4Wvs, .colorSelectedVoice-Xcb_9R, .colorUnreadText-2t7XRb, .colorUnreadVoice-137o4S {
-    color: #b9bbbe;
-}
-
-.colorSelectedText-1y4Wvs{
-	color: transparent;
-}
-
-/* Selected Friends */
-.channel-2QD9_O.selected-1HYmZZ a{
-    background-color: var(--QTD);
-    box-shadow: 0px 0px 2px 1px var(--mc);
-    margin: 1px 1px 1px 9px;
-    border-radius: 3px;
-}
-
-.channel-2QD9_O.selected-1HYmZZ a, .channel-2QD9_O:hover a{
-    background-color: var(--QTD) !important;
-    box-shadow: 0px 0px 2px 1px var(--mc);
-    margin: 1px 1px 1px 9px;
-    border-radius: 3px;
-}
-
-/* friend select hover */
-.theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover, .theme-dark .resultFocused-3aIoYe{
-    background-color: var(--QTD);
-	box-shadow: 0px 0px 2px 1px var(--mc);
-    margin: 1px 1px 1px 9px;
-    border-radius: 3px;
-	
-}
-
-/* Friend call delete button color */
-.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover{
-	background-color:#00BA00!important;
-	box-shadow: 0px 0px 2px 1px #00BA00!important;
-}
-
-
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionRemove-qu8nnl:hover{
-	background-color:var(--mc)!important;
-    box-shadow: 0px 0px 2px 1px var(--mc)!important;
-}
-
-/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Remove tag/mention background */
 
 .theme-dark .wrapper-3WhCwL {
@@ -475,7 +505,6 @@ background-color:#202225;
 }
 
 /* End remove tag/mention background */
-
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /*Emote box Fix */
@@ -503,13 +532,6 @@ background-color:#202225;
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* Speaker icon recolor */
-.theme-dark .guild-1EfMGQ.audio-3vVhBi:after, .theme-dark .guild-1EfMGQ.video-15yGu3:after, .theme-dark .audio-3sNR7M:after, .theme-dark .video-3I9W8t:after {
-    background-color: rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 1px 2px var(--mc);
-}
-
-/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* User settings box border */
 
@@ -542,6 +564,7 @@ background-color:#202225;
 .theme-dark .isMentioned-N-h9aa{
 	background-color: transparent;
 }
+
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Search Page Fix */
 .searchHeader-1l-wpR, .searchResultsWrap-2DKFzt{
@@ -549,10 +572,6 @@ background-color:#202225;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-/*Game tab fix*/
-
-
 [class*="wrapper-232cHJ badge-1GsMF2 folder count da-wrapper da-badge da-folder da-count"]{
     display: none !important;
 }
@@ -563,6 +582,7 @@ background-color:#202225;
     margin: 0px 3px;
 
 }
+
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -603,6 +623,29 @@ background-color:#202225;
 .activityText-sLG0UL{
     color:#ffffff;
 }
+
+.containerDefault-3GGEv_, .containerDragAfter-3TEhpe, .containerDragBefore-3Dzc5x, .containerUserOver-1Tcb7l {
+    padding-top: 20px;
+}
+
+.channels-Ie2l6A .scroller-2FKFPG [class*=clickable-][class*=wrapper]:not(voiceUser-) div[class*=name], .channels-Ie2l6A .scroller-2FKFPG>[class*=container]>[class*=wrapper]>[class*=name] {
+    color: #ffffff !important;
+    background-image: linear-gradient(90deg,transparent,transparent),linear-gradient(90deg,transparent,var(--mc),transparent);
+    background-size: 100% 3px;
+    text-shadow: 0.5px 0.5px 0.5px rgba(0,0,0,0.3) !important;
+    background-position: 0 0,0 100%;
+    background-repeat: no-repeat;
+    padding-top: 19px;
+    padding-bottom: 2px;
+    margin-top: -25px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 3px;
+    width: 175px !important;
+    margin-left: 0px !important;
+    opacity: 1 !important;
+    pointer-events: none;
+}
 /* end white categories */
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -614,8 +657,7 @@ background-color:#202225;
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-
-/* Status around profile picture */
+* Status around profile picture */
 
 .maskProfile-1ObLFT {
     -webkit-mask: none;
@@ -649,7 +691,7 @@ background-color:#202225;
     width: 100%;
 }
 .theme-dark .avatarStatus-3jMZl_ {
-    border-color: #2f3136;
+    border-color: #2f3136 !important;
 }
 .status-oxiHuE {
     border-radius: var(--br) !important;
@@ -749,37 +791,34 @@ background-color:#202225;
     border-radius: var(--br) !important;
 }
 .status-oxiHuE {
-    bottom: -1px;
-    right: -1px;
+    bottom: -1px !important;
+    right: -1px !important;
 }
 .status-oxiHuE {
     border-width: 2px !important;
 }
 
-.online-2S838R {
+.status-oxiHuE:not(.status-3fQvEa).online-2S838R {
     background-color: transparent;
     border: 2px solid #43b581 !important;
 }
 
-.idle-3DEnRT {
+.status-oxiHuE:not(.status-3fQvEa).idle-3DEnRT{
     background-color: transparent;
     border: 2px solid #faa61a !important;
 }
 
 
-.dnd-1_xrcq {
+.status-oxiHuE:not(.status-3fQvEa).dnd-1_xrcq {
     background-color: transparent;
     border: 2px solid #f04747 !important;
 }
-.invisible-1kp8Z0, .statusOffline-3R-4Bv {
+.status-oxiHuE:not(.status-3fQvEa).offline-3qoTek, .status-oxiHuE:not(.status-3fQvEa).invisible-1kp8Z0  {
     background-color: transparent;
     border: 2px solid #747f8d !important;
 }
-.invisible-1kp8Z0, .offline-3qoTek, .unknown-Ms2zdV{
-	background:transparent;
-}
 
-.streaming-2_dnHe {
+.status-oxiHuE:not(.status-3fQvEa).streaming-2_dnHe {
     background-color: transparent;
     border: 2px solid #593695 !important;
 }
@@ -818,64 +857,36 @@ background-color:#202225;
     right: 0px;
 }
 
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* No message divider lines */
+.containerCozy-jafyvG .dividerEnabled-2TTlcf.divider-32i8lo {
+    display: none;
+}
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-
-/*
---------------------------------------------------------------------------------------------
-Custom CSS Addons
--------------------------------------------------------------------------------------------- 
-*/
-
-
-
-/* Flashing Notifications / new guild animations */
- [class*="container-2td-dC da-container unread-2OHH1w da-unread"]{
-     animation: pulseUnread 1.5s infinite linear;
-     transition: all linear .2s;
-	 border-radius:25px;
+/*No cutouts on pings/voice
+#app-mount foreignObject{
+	mask: none !important;
+    -webkit-mask: none !important;
+    overflow: hidden;
+    border-radius: var(--br);
 }
 
- [class*="container-2td-dC da-container unread-2OHH1w da-unread"]:hover{
+/* hover */
+
+ [class*="wrapper-25eVIn da-wrapper"]:hover{
      animation: none;
+	 box-shadow: 0px 0px 10px 1px var(--hc) !important;
+     background: transparent !important;
+	 border-radius:15px !important;
 }
- .selected-nT-gM3:before, .unread-2OHH1w:before{
-     display: none;
-}
-[class*="container-2td-dC da-container selected-nT-gM3 da-selected"]{
-     box-shadow: 0px 0px 2px 2px var(--mc);
-	 border-radius:15px;
 
-}
-.theme-dark .wrapper-2lTRaf{
+ [class*="wrapper-25eVIn da-wrapper"]{
      transition: all linear .2s;
-     box-shadow: 0 0 0 10px 0 #000;
      background: transparent !important;     
 }
-.theme-dark .wrapper-2lTRaf:hover {
-     box-shadow: 0px 0px 10px 1px var(--mc);
-     animation: none;
-     background: transparent !important;
-}
- @keyframes pulseUnread{
-     0% {
-         box-shadow: 0 0 1px 1px var(--hc);
-    }
-     50% {
-        box-shadow: 0 0 2px 3px var(--mc);
-    }
-     100% {
-        box-shadow: 0 0 1px 1px var(--hc);
-    }
-}
-.theme-dark .wrapper-2lTRaf:first-of-type:hover{
-     transform: scale(1);
- }
-.theme-dark .wrapper-2lTRaf { 
- 	animation:none;
- }
-
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -926,3 +937,62 @@ Custom CSS Addons
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
+/* Name and discrim colored and different font */
+.accountDetails-3k9g4n .username {
+    font-size: 120%;
+    font-family: "Satisfy";
+    font-weight: 700;
+    line-height: 25px;
+    color: var(--mc) !important;
+}
+
+.accountDetails-3k9g4n .discriminator {
+    opacity: 1;
+    font-weight: 700;
+    color: var(--mc);
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Flashing Notifications / new guild animations 
+#app-mount foreignObject{
+     animation: pulseUnread 1.5s infinite linear;
+     transition: all linear .2s;
+     border-radius:var(--br);
+}
+
+*/
+/*white dot*/
+ .selected-nT-gM3:before, .unread-2OHH1w:before{
+     display: none;
+}
+
+/*selected*
+#app-mount foreignObject{
+     box-shadow: 0px 0px 2px 2px var(--mc);
+     border-radius:var(--br);
+}
+
+
+
+ @keyframes pulseUnread{
+     0% {
+         box-shadow: 0 0 2px 2px var(--hc);
+    }
+     50% {
+        box-shadow: 0 0 3px 3px var(--mc);
+    }
+     100% {
+        box-shadow: 0 0 2px 2px var(--hc);
+    }
+}
+*/
+
+.folder .wrapper-25eVIn foreignObject {
+    mask: none;
+}
+.upperBadge-2XnnGB.count {
+    left: 0px;
+    right: unset;
+    display: none;
+}
