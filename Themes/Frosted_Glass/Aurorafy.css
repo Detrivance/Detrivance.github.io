@@ -441,7 +441,7 @@
 
 /* Server Channel Unread Background */
 #app-mount .sidebar-2K8pFh .container-PNkimc .containerDefault-1ZnADq .wrapper-1ucjTd:not(.modeMuted-3osy7j).modeUnread-1zpFdA .content-3at_AU {
-    background: rgba(var(--BG-gradient-two),0.2);
+    background: transparent;
 }
 /* Server Channel Unread Background */
 
