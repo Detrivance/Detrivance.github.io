@@ -139,6 +139,9 @@
 #app-mount .quickswitcher-3JagVE .resultFocused-3aIoYe{
 	background:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
 }
+#app-mount .emojiPicker-3m1S-j .emojiItem-109bjA.selected-39BZ4S{
+	background:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+}
 
 /* Links Recolor*/
 
