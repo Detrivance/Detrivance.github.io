@@ -208,6 +208,9 @@ div[style*="width: 100%; height: 20px"] {
     transition: background-color .15s ease-out;
     background-color: var(--background-secondary);
 }
+
+/* Text channel colored #s as new messages in channel */ 
+
 .unread-3zKkbm {
 	display: none;
 }
