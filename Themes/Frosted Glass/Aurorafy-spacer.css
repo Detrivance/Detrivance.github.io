@@ -1,3 +1,16 @@
+:root {
+    --roundness: 50px;
+    --online: #43b581;
+    --idle: #faa61a;
+    --dnd: #f04747;
+    --offline: #636b75;
+    --invisible: #747f8d;
+    --streaming: #643da7;
+    --main-color: rgb(var(--BG-gradient-one));
+    --hover-color: rgb(var(--BG-gradient-two));
+}
+
+
 /* Backdrop Spacer */
 #app-mount .chat-3bRxxu, .contentRegion-3nDuYy, .sidebarRegion-VFTUkN {
     border-radius: var(--BG-window-roundness) !important;
