@@ -10,11 +10,11 @@
 }
 
 #app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .dividerEnabled-2TTlcf {
-    border-color: transparent;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
+    border-color: transparent !important;
+    border-top-color: transparent !important;
+    border-right-color: transparent !important;
+    border-bottom-color: transparent !important;
+    border-left-color: transparent !important;
 }
 /* Chat Header */
 
