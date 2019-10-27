@@ -274,7 +274,7 @@
 
 #app-mount .chat-3bRxxu .mention, #app-mount .chat-3bRxxu .wrapper-3WhCwL{
 	background:transparent !important;
-	color: var(--BG-gradient-one);
+	color: rgb(var(--BG-gradient-one), 1);
 }
 
 .selected-aXhQR6 .layout-2DM8Md{
