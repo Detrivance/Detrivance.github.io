@@ -1,6 +1,6 @@
 
 ::selection {
-    background: var(--mc) !important;
+    background: rgb(var(--BG-gradient-one),1) !important;
     color: #fff !important;
 }
 
@@ -146,7 +146,7 @@
 /* Links Recolor*/
 
 .markup-2BOw-j a, .anchor-3Z-8Bb, .theme-dark .embedTitleLink-1Zla9e{
-	color: var(--mc) !important;
+	color: rgb(var(--BG-gradient-one),1) !important;
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -293,12 +293,12 @@
 /*speaking circle color*/
 
 .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .username-lm8y6T, .usernameSpeaking-2xbKKh {
-    color: var(--mc);
+    color: rgb(var(--BG-gradient-one),1);
 	font-weight: bold;
 }
 
 .avatarSpeaking-3MqCHL{
-	    box-shadow: inset 0 0 0 2px var(--mc),inset 0 0 0 3px var(--background-secondary);
+	    box-shadow: inset 0 0 0 2px rgb(var(--BG-gradient-one),1),inset 0 0 0 3px var(--background-secondary);
 }}
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
