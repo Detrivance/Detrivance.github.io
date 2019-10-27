@@ -209,6 +209,9 @@ div[style*="width: 100%; height: 20px"] {
     background-color: var(--background-secondary);
 }
 .unread-3zKkbm {
+	display: none;
+}
+.modeUnread-1zpFdA .icon-1_QxNX{
     background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
 }
 
