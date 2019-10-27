@@ -117,8 +117,7 @@
 
 /* Hover background color changes */
 
-.clickable-1JJAn8:hover .layout-2DM8Md, #app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud:hover, #app-mount .sidebar-2K8pFh .container-PNkimc .containerDefault-1ZnADq:hover .content-3at_AU
-{
+.clickable-1JJAn8:hover .layout-2DM8Md, #app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud:hover, #app-mount .sidebar-2K8pFh .container-PNkimc .containerDefault-1ZnADq:hover .content-3at_AU{
     background:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
 }
 
