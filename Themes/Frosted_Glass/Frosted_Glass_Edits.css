@@ -202,9 +202,9 @@
 
 .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX {
     background-color: rgb(var(--BG-gradient-one)) ;
-    opacity: 1!important;
-    -webkit-mask: var(--chat-icon);
-    -webkit-mask-size: var(--icon-size);
+    opacity: 1 !important;
+    -webkit-mask: var(--chat-icon) !important;
+    -webkit-mask-size: var(--icon-size) !important;
     height: 20px;
     width: 20px;
     transition: .7s all ease-in-out;
