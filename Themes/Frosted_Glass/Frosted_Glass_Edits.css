@@ -200,7 +200,7 @@
 
 /* Change icon of selected ch*/
 
-#app-mount .sidebar-2K8pFh .container-PNkimc .containerDefault-1ZnADq.selected-37j_iU .content-3at_AU svg {
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX {
     background-color: rgb(var(--BG-gradient-one)) ;
     opacity: 1 !important;
     -webkit-mask: var(--chat-icon) !important;
