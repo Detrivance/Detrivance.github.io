@@ -195,7 +195,7 @@
 }
 .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU:before {
     content: "";
-    background-color: #fff ;
+    background-color: rgb(var(--BG-gradient-one);
     opacity: 1 !important;
     -webkit-mask: var(--chat-icon) !important;
     -webkit-mask-size: var(--icon-size) !important;
