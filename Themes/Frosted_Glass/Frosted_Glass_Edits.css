@@ -189,8 +189,8 @@
 
 
 /* Change icon of selected ch*/
-.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX {
-    display: none;
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX:after {
+    display: none !important;
 }
 
 .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU:before {
