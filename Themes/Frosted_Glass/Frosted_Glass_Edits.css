@@ -189,18 +189,19 @@
 
 
 /* Change icon of selected ch*/
-
 .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX {
-    background-color: #ffffff ;
+    display: none;
+}
+.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU:before {
+    content: "";
+    background-color: #fff ;
     opacity: 1 !important;
     -webkit-mask: var(--chat-icon) !important;
-    -webkit-mask-size: var(--icon-size) !important;
-    height: 20px;
-    width: 20px;
+    -webkit-mask-size: cover !important;
+    height: 24px;
+    width: 24px;
     transition: .7s all ease-in-out;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
-}
-.wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU .icon-1_QxNX path {
-    display: none !important;
+    margin-right: 5px;
 }
