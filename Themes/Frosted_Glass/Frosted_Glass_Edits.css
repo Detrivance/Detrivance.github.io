@@ -1,4 +1,4 @@
-
+/*change selection to be gradient-one instead of gradient-two */
 ::selection {
     background: rgb(var(--BG-gradient-one),1) !important;
     color: #fff !important;
