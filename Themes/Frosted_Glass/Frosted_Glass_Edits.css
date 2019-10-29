@@ -199,8 +199,8 @@
     opacity: 1 !important;
     -webkit-mask: var(--chat-icon) !important;
     -webkit-mask-size: cover !important;
-    height: 24px;
-    width: 24px;
+    height: 20px;
+    width: 20px;
     transition: .7s all ease-in-out;
     -webkit-mask-repeat: no-repeat;
     -webkit-mask-position: center;
