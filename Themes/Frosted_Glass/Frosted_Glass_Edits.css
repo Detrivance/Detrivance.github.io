@@ -46,7 +46,7 @@
 
 /* Remove gift nitro in chat box */
 .channelTextArea-1LDbYG button[tabindex="2"] {
-    display: none;
+    display: none !important;
 }
  /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -187,8 +187,8 @@
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Emote normal size */
 .emoji.jumboable {
-    width:2rem;
-    height:2rem;
-    margin-right:2px;
-    min-height:unset;
+    width:2rem !important;
+    height:2rem !important;
+    margin-right:2px !important; 
+    min-height:unset !important;
 }
