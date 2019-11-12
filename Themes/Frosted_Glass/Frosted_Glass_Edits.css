@@ -187,8 +187,8 @@
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Emote normal size */
 .emoji.jumboable {
-    width:2rem !important;
-    height:2rem !important;
-    margin-right:2px !important; 
-    min-height:unset !important;
+    width: 2rem !important;
+    height: 2rem !important;
+    margin-right: 2px !important; 
+    min-height: unset !important;
 }
