@@ -184,6 +184,10 @@
 .avatarSpeaking-3MqCHL{
 	    box-shadow: inset 0 0 0 2px rgb(var(--BG-gradient-one),1),inset 0 0 0 3px var(--background-secondary);
 }
+
+.attachWrapper-2TRKBi {
+    border-right: transparent !important;
+}
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Background flicker fix*/
 
