@@ -194,3 +194,7 @@
     border-right: transparent !important;
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+#app-mount .scrollableContainer-2NUZem .slateTextArea-1Mkdgw {
+    padding: 16px 16px 17px !important;
+    box-sizing: border-box;
+}
