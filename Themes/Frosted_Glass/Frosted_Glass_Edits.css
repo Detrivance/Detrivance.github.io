@@ -44,8 +44,8 @@
 }
 
 /*Ping recolor*/
-[class*="numberBadge-2s8kKX base-PmTxvP da-numberBadge da-base"]{
-		background-color:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+.numberBadge-2s8kKX{
+    background:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
