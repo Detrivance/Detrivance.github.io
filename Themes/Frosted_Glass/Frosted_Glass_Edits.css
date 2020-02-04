@@ -161,7 +161,7 @@
 
 /* Remove tag/mention background */
 
-.mentioned-xhSam7,.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode .mentioned-xhSam7:hover{
+.mentioned-xhSam7,.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode .mentioned-xhSam7:hover, .message-2qnXI6.selected-2P5D_Z, .mouse-mode .message-2qnXI6:hover{
     background: transparent !important;
 }
 .mentioned-xhSam7:before{
@@ -258,4 +258,9 @@
 .button-1ZiXG9[aria-label="Add Reaction"], .button-1ZiXG9[aria-label="More"] {
     display: flex !important;
     background-color: transparent;
+}
+
+/* Remove Time stamps and message hovers */
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY [class*=timestamp]{
+	display:none;
 }
