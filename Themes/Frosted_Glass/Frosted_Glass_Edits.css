@@ -195,47 +195,9 @@
     border-right: transparent !important;
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* Simulate old regular message dividers */
-.groupStart-23k01U::before {
-    position: absolute;
-    left: 1rem;
-    right: .875rem;
-    content: "";
-    height: 1px;
-    background-color: var(--background-modifier-accent);
-}
-
-.group-spacing-0 .groupStart-23k01U::before {
-    top: 0;
-}
-
-.group-spacing-4 .groupStart-23k01U::before {
-    top: -.15625rem;
-}
-
-.group-spacing-8 .groupStart-23k01U::before {
-    top: -.28125rem;
-}
-
-.group-spacing-16 .groupStart-23k01U::before {
-    top: -.53125rem;
-}
-
-.group-spacing-24 .groupStart-23k01U::before {
-    top: -.78125rem;
-}
-
-.hasMore-3e72_v + .groupStart-23k01U::before,
-.base-34jWEe + .groupStart-23k01U::before,
-.welcomeMessage-3_Mcht + .groupStart-23k01U::before,
-.divider-JfaTT5 + .groupStart-23k01U::before,
-.expanded-13sWhZ .groupStart-23k01U:nth-child(2)::before {
-    display: none;
-}
 
 
 /* Remove Time stamps and message hovers */
-#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY [class*=timestamp] {
-    color: rgba(255, 255, 255, 0.7);
-    display: none !important;
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY [class*=timestamp]{
+	display:none;
 }
