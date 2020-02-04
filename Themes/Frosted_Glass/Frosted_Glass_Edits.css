@@ -175,11 +175,7 @@
 
 /* End remove tag/mention background */
 
-/* Remove Time stamps and message hovers */
-#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY [class*=timestamp] {
-    color: rgba(255, 255, 255, 0.7);
-    display: none !important;
-}
+
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /*speaking circle color*/
