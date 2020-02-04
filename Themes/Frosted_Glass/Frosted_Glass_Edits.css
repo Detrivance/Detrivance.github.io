@@ -235,6 +235,7 @@
 
 
 /* Remove Time stamps and message hovers */
-#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY [class*=timestamp]{
-	display:none;
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY [class*=timestamp] {
+    color: rgba(255, 255, 255, 0.7);
+    display: none !important;
 }
