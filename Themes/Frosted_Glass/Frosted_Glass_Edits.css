@@ -6,8 +6,6 @@
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-
-
 /* makes member hover darker to counter the transparency */
 
 #app-mount .members-1998pB:hover{
@@ -80,9 +78,8 @@
     color: white;
 }
 
-
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/
+
 
 /* Blur account email */
  .userInfoViewing-16kqK3 .flexChild-faoVW3 > div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj {
@@ -95,7 +92,6 @@
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
 
 /*delete blocked people*/
 .theme-dark .friends-table .messages-3amgkR .messageGroupBlocked-3wrQQX, .theme-dark .messagesWrapper-3lZDfY .messages-3amgkR .messageGroupBlocked-3wrQQX {
@@ -196,8 +192,3 @@
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-
-/* Remove Time stamps and message hovers */
-#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY [class*=timestamp]{
-	display:none;
-}
