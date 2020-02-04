@@ -161,10 +161,12 @@
 
 /* Remove tag/mention background */
 
-.mentioned-xhSam7{
+.mentioned-xhSam7,.message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode .mentioned-xhSam7:hover{
     background: transparent !important;
 }
-
+.mentioned-xhSam7:before{
+	background-color: transparent !important;
+}
 
 #app-mount .chat-3bRxxu .mention{
 	background:transparent !important;
