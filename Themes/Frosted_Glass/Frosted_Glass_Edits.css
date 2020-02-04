@@ -158,18 +158,17 @@
     bottom: 0;
     display: none;
 }
-/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Remove tag/mention background */
 
-#app-mount .chat-3bRxxu .isMentioned-N-h9aa{
+.mentioned-xhSam7{
     background: transparent !important;
 }
 
 
-#app-mount .chat-3bRxxu .mention, #app-mount .chat-3bRxxu .wrapper-3WhCwL{
+#app-mount .chat-3bRxxu .mention{
 	background:transparent !important;
-	color: rgb(var(--BG-gradient-one), 1);
+	color: rgb(var(--BG-gradient-one), 1) !important;
 }
 
 .selected-aXhQR6 .layout-2DM8Md{
@@ -194,3 +193,67 @@
     border-right: transparent !important;
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Simulate old regular message dividers */
+.groupStart-23k01U::before {
+    position: absolute;
+    left: 1rem;
+    right: .875rem;
+    content: "";
+    height: 1px;
+    background-color: var(--background-modifier-accent);
+}
+
+.group-spacing-0 .groupStart-23k01U::before {
+    top: 0;
+}
+
+.group-spacing-4 .groupStart-23k01U::before {
+    top: -.15625rem;
+}
+
+.group-spacing-8 .groupStart-23k01U::before {
+    top: -.28125rem;
+}
+
+.group-spacing-16 .groupStart-23k01U::before {
+    top: -.53125rem;
+}
+
+.group-spacing-24 .groupStart-23k01U::before {
+    top: -.78125rem;
+}
+
+.hasMore-3e72_v + .groupStart-23k01U::before,
+.base-34jWEe + .groupStart-23k01U::before,
+.welcomeMessage-3_Mcht + .groupStart-23k01U::before,
+.divider-JfaTT5 + .groupStart-23k01U::before,
+.expanded-13sWhZ .groupStart-23k01U:nth-child(2)::before {
+    display: none;
+}
+
+/* fixes new message update for reacts*/
+.separator-42rNt0 {
+    display: none;
+}
+
+.button-1ZiXG9 {
+    display: none;
+}
+
+.isHeader-2dII4U {
+    top: 10px;
+}
+
+.wrapper-2aW0bm, .wrapper-2aW0bm:hover {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.container-3npvBV {
+    top: unset;
+}
+
+.button-1ZiXG9[aria-label="Add Reaction"], .button-1ZiXG9[aria-label="More"] {
+    display: flex !important;
+    background-color: transparent;
+}
