@@ -6,8 +6,8 @@
     --offline: #636b75;
     --invisible: #747f8d;
     --streaming: #643da7;
-    --main-color: rgb(var(--BG-gradient-one));
-    --hover-color: rgb(var(--BG-gradient-two));
+    --main-color: rgb(var(--gradient-primary));
+    --hover-color: rgb(var(--gradient-direction));
 }
 
 
@@ -42,7 +42,7 @@
     background:rgba(0,0,0,0.5) !important;
 }
 .acronym-2mOFsV:hover {
-    background:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+    background:linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var( --gradient-secondary), 1)) !important;
 }
 .listItem-2P_4kh {
     margin-left:10px;
@@ -59,7 +59,7 @@
     margin-left:8px;
     border-radius:50px;
     width:8px !important;
-    background:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+   background:linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var( --gradient-secondary), 1)) !important;
 }
 .guildSeparator-3s64Iy {
     display:none;
@@ -107,7 +107,7 @@
 	display: none;
 }
 .modeUnread-1zpFdA .icon-1_QxNX{
-    color: rgb(var(--BG-gradient-one),1) !important;
+    color: rgb(var(--gradient-primary),1) !important;
 }
 
 /* End #s colorized */
@@ -130,13 +130,13 @@
 }
 .da-messagesWrapper .scroller-2FKFPG::-webkit-scrollbar-thumb {
   border:none !important;
-  background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+  background: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 }
 .da-scrollerWrap .da-scroller::-webkit-scrollbar-track-piece {
     display:none !important;
 }
 .da-scroller:not(.messages-3amgkR)::-webkit-scrollbar-thumb {
-    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+    background: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 }
 .da-scroller:not(.messages-3amgkR)::-webkit-scrollbar {
     width:5px !important;
@@ -151,14 +151,14 @@
 }
 .da-messagesWrapper .scroller::-webkit-scrollbar-thumb {
   border:none !important;
-  background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+  background: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 }
 .da-scrollerWrap .da-scroller::-webkit-scrollbar-track-piece,
 .da-guildsWrapper .scroller::-webkit-scrollbar {
     display:none !important;
 }
 .da-scroller:not(.messages-3amgkR)::-webkit-scrollbar-thumb {
-    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+    background: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 }
 .da-scroller:not(.messages-3amgkR)::-webkit-scrollbar {
     width:5px !important;
@@ -318,7 +318,7 @@
 	opacity: 1 !important;
 }
 .reaction-1ELvT8.reactionMe-23mbRf {
-	background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+	background: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 	border-radius: 10px;
 	opacity: 1 !important;
 }
@@ -355,7 +355,7 @@
 .name-IbjUBS {
   color: #ffffff !important;
   border-bottom: 3px solid;
-  border-image: linear-gradient(90deg, transparent, rgb(var(--BG-gradient-one)), rgb(var(--BG-gradient-two)), transparent);
+  border-image: linear-gradient(90deg, transparent, rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)), transparent);
   border-image-slice: 1;
   margin-top: -7px;
   text-align: center;
@@ -365,7 +365,7 @@
 .membersGroup-v9BXpm {
   color: #ffffff !important;
   border-bottom: 3px solid;
-  border-image: linear-gradient(90deg, transparent, rgb(var(--BG-gradient-one)), rgb(var(--BG-gradient-two)), transparent);
+  border-image: linear-gradient(90deg, transparent, rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)), transparent);
   border-image-slice: 1;
   padding: 19px 16px 6px 16px;
   margin: 4px 0px 10px 15px;
@@ -377,9 +377,9 @@
 }
 
 .header-zu8eWb {
-  color: rgb(var(--BG-gradient-one));
+  color: rgb(var(--gradient-primary));
   border-bottom: 3px solid;
-  border-image: linear-gradient(90deg, transparent, rgb(var(--BG-gradient-one)), rgb(var(--BG-gradient-two)), transparent);
+  border-image: linear-gradient(90deg, transparent, rgb(var(--gradient-primary)), rgb(var(--gradient-secondary)), transparent);
   border-image-slice: 1;
   padding: 19px 16px 6px 16px;
   margin: 4px 0px 10px 15px;
@@ -402,28 +402,28 @@
 }
 
 .RANbutton:hover {
-  background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+  background: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 }
 
 /* User Settings Background Colors */
 .standardSidebarView-3F1I7i .side-8zPYf6 [style*="background-color: rgb(114, 137, 218)"] {
-    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+    background: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 }
 
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
-    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+    background: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1));
 }
 
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .themed-OHr7kt.item-PXvHYJ:hover {
-    background:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+    background:linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 }
 
 #app-mount .layer-3QrUeG[aria-label*="SETTINGS"] .standardSidebarView-3F1I7i .sidebarRegion-VFTUkN .ui-tab-bar-item.selected {
-    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+    background: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 }
 
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
-    background:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+    background:linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 }
 /* User Settings Background Colors */
 
@@ -531,7 +531,7 @@
 
 /* Text Channel Unread Bar */
 .bar-30k2ka {
-    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+    background: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
     color: transparent;
 }
 
@@ -549,10 +549,9 @@
 
 /* Icon Badge Background */
 .iconBadge-2wi9r4 {
-    background:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+    background:linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 }
 /* Icon Badge Background */
-
 
 
 

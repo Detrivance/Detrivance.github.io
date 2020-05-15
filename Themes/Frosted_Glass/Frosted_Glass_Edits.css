@@ -1,6 +1,6 @@
 /*change selection to be gradient-one instead of gradient-two */
 ::selection {
-    background: rgb(var(--BG-gradient-one),1) !important;
+    background: rgb(var(--gradient-primary),1) !important;
     color: #fff !important;
 }
 
@@ -17,33 +17,33 @@
 /* Hover background color changes */
 
 .clickable-1JJAn8:hover .layout-2DM8Md{
-    background:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+    background:linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 }
 #app-mount .container-3gCOGc .friendsTable-133bsv .friendsRow-2yicud:hover{
-    background:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+    background:linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 }
 #app-mount .sidebar-2K8pFh .container-PNkimc .containerDefault-1ZnADq:hover .content-3at_AU{
-    background:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+    background:linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 }
 #app-mount .menu-Sp6bN1 .item-1GzJrl:hover{
-    background:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+    background:linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 }
 #app-mount .quickswitcher-3JagVE .resultFocused-3aIoYe{
-	background:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+	background:linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 }
 #app-mount .emojiPicker-3m1S-j .emojiItem-109bjA.selected-39BZ4S{
-	background-color:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+	background-color:linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 }
 
 /* Links Recolor*/
 
 .markup-2BOw-j a, .anchor-3Z-8Bb, .theme-dark .embedTitleLink-1Zla9e{
-	color: rgb(var(--BG-gradient-one),1) !important;
+	color: rgb(var(--gradient-primary),1) !important;
 }
 
 /*Ping recolor*/
 .numberBadge-2s8kKX{
-    background:linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+    background:linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -70,7 +70,7 @@
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 /* Makes the unread bar have color than that gray ugly thing for Frosted Glass */
 .bar-30k2ka {
-    background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1)) !important;
+    background: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1)) !important;
     color: transparent;
 }
 
@@ -166,11 +166,11 @@
 
 #app-mount .chat-3bRxxu .mention{
 	background:transparent !important;
-	color: rgb(var(--BG-gradient-one), 1) !important;
+	color: rgb(var(--gradient-primary), 1) !important;
 }
 
 .selected-aXhQR6 .layout-2DM8Md{
-	background: linear-gradient(var(--BG-gradient-direction), rgba(var(--BG-gradient-one), 1) 20%, rgba(var(--BG-gradient-two), 1));
+	background: linear-gradient(var(--gradient-direction), rgba(var(--gradient-primary), 1) 20%, rgba(var(--gradient-secondary), 1));
 }
 
 /* End remove tag/mention background */
@@ -181,12 +181,12 @@
 /*speaking circle color*/
 
 .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .username-lm8y6T, .usernameSpeaking-2xbKKh {
-    color: rgb(var(--BG-gradient-one),1);
+    color: rgb(var(--gradient-primary),1);
 	font-weight: bold;
 }
 
 .avatarSpeaking-3MqCHL{
-	    box-shadow: inset 0 0 0 2px rgb(var(--BG-gradient-one),1),inset 0 0 0 3px var(--background-secondary);
+	    box-shadow: inset 0 0 0 2px rgb(var(--gradient-primary),1),inset 0 0 0 3px var(--background-secondary);
 }
 
 .attachWrapper-2TRKBi{
