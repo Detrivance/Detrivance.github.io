@@ -105,49 +105,15 @@
 
 /*Jump to present fix*/
 
-.jumpToPresentBar-9P20AM {
+.barButtonMain-3K-jeJ{
+	display:none !important;
+}
+.barBase-1c2Rfb{
+	left:0px;
+}
+
+.jumpToPresentBar-G1R9s6 {
 	left: auto;
-}
-
-.chat-3bRxxu .jumpToPresentBar-9P20AM button:last-child {
-    color: #fff;
-}
-.jumpToPresentBar-9P20AM button:last-child {
-    -webkit-transition: color .2s;
-    color: hsla(0,0%,100%,.6);
-    font-size: 12px;
-    text-transform: uppercase;
-    transition: color .2s;
-}
-.jumpToPresentBar-9P20AM button {
-    background: none;
-    color: #fff;
-    line-height: 14px;
-    padding: 6px 10px;
-    text-align: left;
-}
-
-
-.chat-3bRxxu .jumpToPresentBar-9P20AM button:first-child {
-    display: none;
-}
-.jumpToPresentBar-9P20AM button:first-child {
-    -ms-flex: 1;
-    -webkit-box-flex: 1;
-    flex: 1;
-    font-size: 14px;
-}
-.jumpToPresentBar-9P20AM button {
-    background: none;
-    color: #fff;
-    line-height: 14px;
-    padding: 6px 10px;
-    text-align: left;
-}
-
-.unreadBottom-3hWQ7c {
-    bottom: 0;
-    display: none;
 }
 
 /* Remove tag/mention background */
